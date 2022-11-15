@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+li {
+  list-style: none;
+}
+body {
+  font-size: 12px;
+}
+.rentalAddr {
+  height: 3.6rem;
+  line-height: 3.6rem;
+  background: #ffffff;
+  border-bottom: 1px solid #c5c5c5;
+  padding-left: 1.5rem;
+}
+.secondSearch {
+  width: 29rem;
+  margin: 1rem auto;
+  position: relative;
+}
+.secondSearch input {
+  width: 29rem;
+  height: 4.1rem;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #cccccc;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.secondSearch span {
+  position: absolute;
+  top: 1.2rem;
+  right: 5rem;
+}
+.secondSearch a {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.8rem;
+}
+.secondSearch a img {
+  width: 1.8rem;
+  height: 2rem;
+}
+.secondList .hide {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+  /*接口*/
+}
+.secondList .list {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  z-index: 4;
+  position: relative;
+  background: #FFF;
+}
+.secondList .list li {
+  position: relative;
+}
+.secondList .list li h2 a {
+  position: relative;
+}
+.secondList .list li h2 a span {
+  border-top: 5px solid #ccc;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  top: 0.6rem;
+  right: -1.4rem;
+}
+.secondList .list li h2 a .active {
+  color: #ff8a00;
+  /*添加active类名就可以改变小箭头的方向和颜色*/
+}
+.secondList .list li h2 a .active span {
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #ff8a00;
+  border-left: 5px solid transparent;
+  top: 0.2rem;
+}
+.secondList .someList {
+  width: 100%;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  z-index: 10;
+}
+.secondList .someList .area {
+  display: flex;
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-size: 1.2rem;
+  /*display: block;*/
+  display: none;
+}
+.secondList .someList .area .title {
+  flex: 1;
+  background: #f0f0f0;
+  border-right: 1px solid #cccccc;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.secondList .someList .area .title h2 {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+}
+.secondList .someList .area .title .active {
+  color: #ff8a00;
+  background: #fff;
+  margin-right: -1px;
+  border-right: 2px solid #fff;
+}
+.secondList .someList .area .hideList {
+  flex: 3;
+}
+.secondList .someList .area .hideList ul li {
+  float: left;
+  width: 45%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  /*margin-left: 0.1rem;*/
+  box-sizing: border-box;
+}
+.secondList .someList .area .hideList ul li .active {
+  color: #ff8a00;
+}
+.secondList .someList .price {
+  background: #fff;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-size: 1.2rem;
+  display: none;
+}
+.secondList .someList .price ul li {
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #ccc;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.secondList .someList .price ul > li:last-of-type {
+  border-bottom: none;
+}
+.secondList .someList .house {
+  background: #fff;
+  padding-bottom: 2rem;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-size: 1.2rem;
+}
+.secondList .someList .house ul li {
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #ccc;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.secondList .someList .house ul li span {
+  width: 1.4rem;
+  height: 1.5rem;
+  float: right;
+  margin-top: 1.2rem;
+  margin-right: 2rem;
+  border: 1px solid #c5c3c3;
+}
+.secondList .someList .house ul li .active {
+  border: 1px solid #ff8a00;
+  background: url("../image/SecondHandList/ok.png") center center no-repeat;
+}
+.secondList .someList .house ul > li:last-of-type {
+  border-bottom: none;
+}
+.secondList .someList .more {
+  background: #fff;
+  width: 100%;
+  padding: 0 2rem 2rem;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-size: 1.2rem;
+  display: none;
+}
