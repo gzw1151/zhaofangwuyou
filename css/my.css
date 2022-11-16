@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: relative;
+}
+header .bg {
+  width: 100%;
+  height: 20rem;
+}
+header .add {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+header .add a {
+  color: #ffffff;
+  height: 2rem;
+  display: inline-block;
+  padding-top: 2.5rem;
+  text-align: center;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+}
+header .add .user {
+  background: url(../image/my/urse.png) no-repeat 3px 0px;
+  background-size: 2rem 2rem;
+}
+header .add .app {
+  background: url(../image/my/down.png) no-repeat 3px 0px;
+  background-size: 2rem 2rem;
+}
+header .a1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .a1 img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+header .a1 .login {
+  margin-top: 1.2rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+.nr {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+  background-color: #ffffff;
+}
+.nr ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.nr ul li {
+  width: 100%;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  border-bottom: 1px solid #dcdcdc;
+  background: url(../image/my/right.png) no-repeat right center;
+  background-size: 0.8rem 1.8rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.nr ul li a {
+  padding-left: 1rem;
+}
+.nr .logout {
+  height: 4.5rem;
+  line-height: 4.5rem;
+  background-color: #ffffff;
+  margin: 3rem 1rem;
+  color: #ff8a00;
+  font-size: 1.4rem;
+  border: 2px solid #e7e7e7;
+}
