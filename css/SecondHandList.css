@@ -9,8 +9,9 @@ a {
 li {
   list-style: none;
 }
+html,
 body {
-  font-size: 12px;
+  font-size: 10px;
 }
 .rentalAddr {
   height: 3.6rem;
@@ -86,16 +87,14 @@ body {
   top: 0.6rem;
   right: -1.4rem;
 }
-.secondList .list li h2 a .active {
-  color: #ff8a00;
-  /*添加active类名就可以改变小箭头的方向和颜色*/
-}
-.secondList .list li h2 a .active span {
+.secondList .list li h2 a .span_1 {
   border-top: 5px solid transparent;
   border-right: 5px solid transparent;
   border-bottom: 5px solid #ff8a00;
   border-left: 5px solid transparent;
-  top: 0.2rem;
+  position: absolute;
+  top: 0.6rem;
+  right: -1.4rem;
 }
 .secondList .someList {
   width: 100%;
@@ -178,6 +177,7 @@ body {
   top: 0;
   z-index: 3;
   font-size: 1.2rem;
+  display: none;
 }
 .secondList .someList .house ul li {
   height: 4rem;
@@ -198,6 +198,15 @@ body {
   border: 1px solid #ff8a00;
   background: url("../image/SecondHandList/ok.png") center center no-repeat;
 }
+.secondList .someList .house ul li .btnOK {
+  text-align: center;
+  background: #ff8a00;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+}
 .secondList .someList .house ul > li:last-of-type {
   border-bottom: none;
 }
@@ -212,4 +221,113 @@ body {
   z-index: 3;
   font-size: 1.2rem;
   display: none;
+}
+.secondList .someList .more ul li h3 {
+  padding: 2rem 0 1.2rem 0;
+  font-size: 1.4rem;
+}
+.secondList .someList .more ul li .childList {
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.secondList .someList .more ul li .childList li {
+  float: left;
+  width: 22%;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-bottom: 1.2rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+.secondList .someList .more ul li .childList > li:first-of-type,
+.secondList .someList .more ul li .childList li:nth-of-type(5),
+.secondList .someList .more ul li .childList li:nth-of-type(9) {
+  margin-left: 0;
+}
+.secondList .someList .more ul .clear {
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+}
+.secondList .someList .more ul .btnOK {
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  background: #ff8a00;
+}
+.secondList .someList .more ul .btnOK a {
+  color: white;
+}
+.div_ {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  position: relative;
+  top: -14.8rem;
+  left: 0rem;
+  display: none;
+}
+.act_ {
+  color: #ff8a00;
+}
+.secondContent {
+  padding: 0 2.5rem;
+  font-size: 1.2rem;
+}
+.secondContent li {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ff8a00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondContent li .left img {
+  width: 10rem;
+  height: 10rem;
+}
+.secondContent li .right {
+  width: 21rem;
+  overflow: hidden;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+.secondContent li .right h2 {
+  font-size: 1.8rem;
+}
+.secondContent li .right p {
+  color: #b0b0b0;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+.secondContent li .right > p:first-of-type {
+  color: #000;
+  margin-top: 1rem;
+}
+.secondContent li .right .retalCont1 {
+  line-height: 2rem;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.secondContent li .right .retalCont1 span {
+  color: #6da719;
+  float: left;
+  padding: 0 0.5rem;
+  border: 1px solid #6da719;
+  border-radius: 2px;
+}
+.secondContent li .right .retalCont1 strong {
+  float: right;
+  color: #ff8a00;
+}
+.secondContent > li:last-of-type {
+  border-bottom: none;
 }

@@ -1,3 +1,4 @@
+
 function setRem() {
     var ui_w = 375;
     var client_w = document.documentElement.clientWidth || document.body.clientWidth;
@@ -9,6 +10,10 @@ function setRem() {
 }
 
 var timer = null;
+
+
+
+
 window.onresize = function () {
     clearTimeout(timer);
     timer = setTimeout(setRem, 300);

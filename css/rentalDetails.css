@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #666666;
+}
+li {
+  list-style: none;
+}
+html,
+body {
+  font-size: 10px;
+  background: #f5f5f5;
+}
+.rentalAddr {
+  height: 3.6rem;
+  line-height: 3.6rem;
+  background: #ffffff;
+  border-bottom: 1px solid #c5c5c5;
+  padding-left: 1.5rem;
+}
+.rentalpart1 .banner {
+  position: relative;
+}
+.rentalpart1 .banner a .img {
+  width: 100%;
+  height: 18.5rem;
+}
+.rentalpart1 .banner .share {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 5.9rem;
+  height: 4.1rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 4.1rem;
+  border-radius: 10px 0 0 10px;
+}
+.rentalpart1 .mianText {
+  height: 7rem;
+  background: #f9f9f9;
+  display: flex;
+}
+.rentalpart1 .mianText h2 {
+  flex: 78;
+  line-height: 2.1rem;
+  margin-left: 1.5rem;
+  padding-top: 1.4rem;
+  font-size: 1.8rem;
+}
+.rentalpart1 .mianText a {
+  flex: 22;
+  border-left: 1px solid #dcdcdc;
+  text-align: center;
+  background: url("../image/rentalList/xin.png") 2.9rem 1.7rem no-repeat;
+  background-size: 1.9rem 1.9rem;
+  padding-top: 3.8rem;
+}
+.rentalpart1 .houseMes1 {
+  display: flex;
+  padding: 3rem 0;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+.rentalpart1 .houseMes1 li {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #e2e2e2;
+}
+.rentalpart1 .houseMes1 li div:nth-of-type(2) {
+  color: #ff8a00;
+  margin-top: 0.06rem;
+}
+.rentalpart1 .houseMes2 {
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 2rem;
+}
+.rentalpart1 .houseMes2 li {
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.rentalpart1 .houseMes2 li div {
+  display: inline-block;
+  width: 48%;
+}
+.public {
+  margin: 0.9rem;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+}
+.public h2 {
+  height: 4.4rem;
+  line-height: 4.4rem;
+  color: #ff8a00;
+  background: url("../image/rentalList/right.png") 32rem center no-repeat;
+  background-size: 0.7rem 1.4rem;
+  padding: 0 1.6rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.public p {
+  padding: 1rem;
+  line-height: 2rem;
+}
+.rentalpart4 div {
+  width: 28rem;
+  border: 1px solid #dcdcdc;
+  margin: 1rem auto;
+}
+.rentalpart4 div h3 {
+  height: 3.2rem;
+  line-height: 3.2rem;
+  padding-left: 0.3rem;
+}
+.rentalpart4 div img {
+  width: 100%;
+}
+.rentalpart5 p span {
+  color: #de6843;
+}
+.rentalpart6 {
+  background: #ffffff;
+  display: flex;
+  height: 5.7rem;
+}
+.rentalpart6 .man {
+  display: flex;
+  flex: 63;
+  padding: 0.9rem;
+}
+.rentalpart6 .man img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.9rem;
+}
+.rentalpart6 .phone {
+  flex: 37;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.rentalpart6 .phone a {
+  display: inline-block;
+  flex: 1;
+  padding-top: 3rem;
+}
+.rentalpart6 .phone > a:first-of-type {
+  color: #5dcb96;
+  background: url("../image/rentalList/icon1.png") 0 0 no-repeat;
+  background-size: 3rem 3rem;
+}
+.rentalpart6 .phone > a:last-of-type {
+  color: #5baede;
+  background: url("../image/rentalList/icon2.png") 0 0 no-repeat;
+  background-size: 3rem 3rem;
+}

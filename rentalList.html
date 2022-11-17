@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/toubudibu.css">
-    <link rel="stylesheet" href="./css/rentIList.css">
+    <link rel="stylesheet" href="./css/rentlList.css">
 </head>
 
 <body>
@@ -38,21 +38,38 @@
         <ul class="list">
             <li>
                 <!--添加active类名就可以改变小箭头的方向和颜色-->
-                <h2><a href="#">区域<span></span></a></h2>
+                <h2><a href="#" class="a_">区域<span></span></a></h2>
             </li>
             <li>
-                <h2><a href="#">月租<span></span></a></h2>
+                <h2><a href="#" class="a_">月租<span></span></a></h2>
             </li>
             <li>
-                <h2><a href="#">房型<span></span></a></h2>
+                <h2><a href="#" class="a_">房型<span></span></a></h2>
             </li>
             <li>
-                <h2><a href="#">更多<span></span></a></h2>
+                <h2><a href="#" class="a_">更多<span></span></a></h2>
             </li>
         </ul>
+        <div class="div_">
+            <ul class="list">
+                <li>
+                    <!--添加active类名就可以改变小箭头的方向和颜色-->
+                    <h2><a href="#" class="top_">区域<span class="span_"></span></a></h2>
+                </li>
+                <li>
+                    <h2><a href="#" class="top_">月租<span class="span_"></span></span></a></h2>
+                </li>
+                <li>
+                    <h2><a href="#" class="top_">房型<span class="span_"></span></a></h2>
+                </li>
+                <li>
+                    <h2><a href="#" class="top_">更多<span class="span_"></span></a></h2>
+                </li>
+            </ul>
+        </div>
         <ul class="someList">
             <!--区域-->
-            <li class="area">
+            <li class="area some_">
                 <div class="title">
                     <h2 class="active">区域</h2>
                     <h2>地铁</h2>
@@ -79,7 +96,7 @@
                 </div>
             </li>
             <!--价格-->
-            <li class="price">
+            <li class="price some_">
                 <ul>
                     <li><a href="#">不限</a></li>
                     <li><a href="#">100万以下</a></li>
@@ -91,7 +108,7 @@
                 </ul>
             </li>
             <!--房型-->
-            <li class="house">
+            <li class="house some_">
                 <ul>
                     <li>不限</li>
                     <li>
@@ -113,7 +130,7 @@
                 </ul>
             </li>
             <!--更多-->
-            <li class="more">
+            <li class="more some_">
                 <ul>
                     <li>
                         <h3>区域</h3>
@@ -161,6 +178,67 @@
         </ul>
     </section>
 
+    <!--房屋详细信息-->
+    <section>
+        <ul class="secondContent">
+            <li>
+                <div class="left">
+                    <img src="image/rentalList/img1.png" alt="" />
+                </div>
+                <div class="right">
+                    <h2>南沙滩小区 超低价急售</h2>
+                    <p>2室1厅 96㎡ 南北</p>
+                    <div>青岛新天地</div>
+                    <div class="retalCont1"><span>集中供暖</span><strong>3700元/月</strong></div>
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="image/rentalList/img2.png" alt="" />
+                </div>
+                <div class="right">
+                    <h2>青年汇二期 免税三居</h2>
+                    <p>3室2厅 129㎡ 南北</p>
+                    <div>青年汇家园</div>
+                    <div class="retalCont1"><span>集中供暖</span><strong>4610元/月</strong></div>
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="image/rentalList/img3.png" alt="" />
+                </div>
+                <div class="right">
+                    <h2>博雅德源稀缺两居 钥匙房源</h2>
+                    <p>2室2厅 126m² 南北</p>
+                    <div>西二旗</div>
+                    <div class="retalCont1"><span>天然气供暖</span><strong>3420元/月</strong></div>
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="image/rentalList/img4.png" alt="" />
+                </div>
+                <div class="right">
+                    <h2>朝阳北路赠车库自住首选</h2>
+                    <p>5室3厅 260m² 南北</p>
+                    <div>武夷花园二手房</div>
+                    <div class="retalCont1"><span>集中供暖</span><strong>5408元/月</strong></div>
+                </div>
+            </li>
+            <li>
+                <div class="left">
+                    <img src="image/rentalList/img5.png" alt="" />
+                </div>
+                <div class="right">
+                    <h2>金汉旭城 东南金角一居</h2>
+                    <p>1室1厅 60m² 东南</p>
+                    <div>鲁谷二手房</div>
+                    <div class="retalCont1"><span>集中供暖</span><strong>3300元/月</strong></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
     <!--底部-->
     <footer class="copyright">
         <h2>北京找房无忧 > 首页</h2>
@@ -191,3 +269,4 @@
 
 </html>
 <script src="./js/setRem.js"></script>
+<script src="./js/rentalList.js"></script>
