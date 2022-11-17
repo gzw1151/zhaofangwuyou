@@ -37,67 +37,17 @@ body {
 .content .item .active {
   border-bottom: 0.5rem solid #ff8a00;
 }
-.content .inputbox {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.content .inputbox div {
-  width: 100%;
-  height: 4.3rem;
-  border-bottom: 0.2rem solid #dcdcdc;
-  position: relative;
-}
-.content .inputbox div input {
-  border: none;
-  outline: none;
-  width: 100%;
-  height: 4.2rem;
-  line-height: 4.2rem;
-  padding-left: 1.4rem;
-}
-.content .inputbox div span {
-  position: absolute;
-  top: 1.5rem;
-  right: 10rem;
-  font-size: 0.2rem;
-}
-.content .inputbox .bth {
-  margin-top: 1rem;
-  width: 30rem;
-  height: 4.8rem;
-  background: #ff8a00;
-  line-height: 4.8rem;
-  outline: none;
-  border: none;
-  color: #ffffff;
-  font-size: 1.8rem;
-}
-.content .inputbox .a2 {
-  display: flex;
-  justify-content: space-between;
-  border: none;
-}
-.content .inputbox .a2 a {
-  line-height: 3rem;
-  padding: 0 2%;
-}
-.content .inputbox .a2 a:nth-of-type(1) {
-  color: #ff8a00;
-}
 .content .inputbox2 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   text-align: center;
 }
 .content .inputbox2 div {
   width: 100%;
   height: 4.3rem;
   border-bottom: 0.2rem solid #dcdcdc;
+  position: relative;
 }
 .content .inputbox2 div input {
   border: none;
@@ -106,6 +56,12 @@ body {
   height: 4.2rem;
   line-height: 4.2rem;
   padding-left: 1.4rem;
+}
+.content .inputbox2 div .s {
+  position: absolute;
+  top: 1.5rem;
+  right: 10rem;
+  font-size: 0.2rem;
 }
 .content .inputbox2 .aa1 {
   position: relative;
