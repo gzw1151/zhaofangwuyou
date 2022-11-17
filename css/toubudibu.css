@@ -5,6 +5,10 @@
 a {
   text-decoration: none;
 }
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
 header {
   height: 4.2rem;
   background: #ff8a00;

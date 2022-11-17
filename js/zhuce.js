@@ -105,7 +105,7 @@ bth.onclick = function () {
         window.localStorage.setItem("tel", tel.value);
         window.localStorage.setItem("pwd", pas.value);
         setTimeout(function () {
-            window.location.href = "./register.html";
+            window.location.href = "../login.html";
         }, 1000);
     } else {
         alert("注册失败");

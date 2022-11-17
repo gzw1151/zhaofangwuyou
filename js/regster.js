@@ -115,7 +115,7 @@ hqyzm.onblur = function () {
 bth1.onclick = function () {
     if (yzBool == true && telBool == true) {
         alert("登录成功");
-        window.location.href = "./index.html";
+        window.location.href = "../index.html";
         window.localStorage.setItem("succeed", true);
     } else {
         alert("用户名/密码输入错误");
